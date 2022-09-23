@@ -1,6 +1,6 @@
 <!-- {% load static %} -->
 <header class=header-main>
-    <div class=header-upper>
+    <!-- <div class=header-upper>
         <div class=container>
             <div class=row>
                 <ul>
@@ -10,10 +10,10 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="header-lower clearfix">
         <div class=container>
-            <div class=row><h1 class=logo><a href=index-2.html><img src='{% static "images/logo.png" %}' alt=image></a></h1>
+            <div class=row><h1 class=logo><a href='{%url "home-page" %}'><img src='{% static "images/FCDA/vector/default.svg" %}' alt=image></a></h1>
 
                 <div class=menubar>
                     <nav class=navbar>
@@ -24,7 +24,7 @@
                             </div>
                             <div class=nav-menu>
                                 <ul class="nav navbar-nav menu-bar">
-                                    <li><a href=index-2.html class=active>Home <span></span> <span></span>
+                                    <li><a href='{%url "home-page" %}'class=active>Home <span></span> <span></span>
                                         <span></span> <span></span></a></li>
                                     <li><a href=about.html>about <span></span> <span></span> <span></span>
                                         <span></span></a></li>
@@ -37,13 +37,13 @@
                                     </li>
                                     <li><a href=blog.html>blog <span></span> <span></span> <span></span>
                                         <span></span></a></li>
-                                    <li><a href=bookTicket.html>book Tickets <span></span> <span></span>
+                                    <!-- <li><a href=bookTicket.html>book Tickets <span></span> <span></span>
                                         <span></span> <span></span></a></li>
-                                    <li><a href=shop.html>shop <span></span> <span></span> <span></span>
+                                    <li><a href=shop.html>shop <span></span> <span></span> <span></span> -->
                                         <span></span></a></li>
                                     <li><a href=contact.html>contact <span></span> <span></span> <span></span>
                                         <span></span></a></li>
-                                    <li><a>error <span></span> <span></span> <span></span> <span></span></a>
+                                    <!-- <li><a>error <span></span> <span></span> <span></span> <span></span></a>
                                         <ul class=sub-menu>
                                             <li><a href=400.html>400 page</a></li>
                                             <li><a href=401.html>401 page</a></li>
@@ -52,7 +52,7 @@
                                             <li><a href=500.html>500 page</a></li>
                                             <li><a href=503.html>503 page</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>

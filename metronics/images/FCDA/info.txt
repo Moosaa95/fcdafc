@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Colus-Regular
+font link: https://www.fontfabric.com/colus/
+font author: Stan Partalev
+font author site: http://www.fontfabric.com/
+
+
+icon designer: Derek Britton
+icon designer link: /DTB9
+        
+{"bg":"#CCA20F","font":"#ffffff","icon":"#54555C","slogan":"#ffffff"}
+      

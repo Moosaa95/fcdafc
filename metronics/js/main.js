@@ -1077,9 +1077,13 @@ $(document).ready(function () {
       }   
 
     /*--------------- Countdown Timer - Homepage ------------------*/
+    const eventBox = document.querySelector("#timer-show")
+    
+    const boxx = eventBox.textContent
+    console.log(boxx, 'i am a box');
 
     if($('.match_timing').length){
-        $('.match_timing').countdown('2022/10/31', function(event) {
+        $('.match_timing').countdown(boxx, function(event) {
             $(this).html(
                 event.strftime('<ul class="counter-wrap ">' + 
                                 '<li ><span>%D</span>days</li>' + 
@@ -1088,6 +1092,7 @@ $(document).ready(function () {
                                 '<li ><span>%S</span>seconds</li>' + 
                               '</ul>')
             );
+            
         });
     }
 });

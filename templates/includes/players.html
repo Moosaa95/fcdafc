@@ -1,0 +1,16 @@
+<li class="new"><a href="{{player.get_absolute_url}}">
+    <div class=playerFig>
+        <div class=playerpic>
+            <div style="background:url({{player.image.url}})" class=bgimg></div>
+        </div>
+        <ul class="playerDetails clearfix">
+            <li class="playeName">{{player.first_name}} {{player.last_name}}</li>
+            
+            <li class="playerName"><span></span> <span><img src=images/icons/tShirt.png
+                                                      alt=image></span></li>
+            {% comment %} <li class=playinfodetails>age 28 (born 22 april ,1987)</li> {% endcomment %}
+            <li class=playerInfo><span>{{player.position}}</span> <span id="playerNumber"><i
+                    class="fa fa-heart"></i>{{player.number}}</span></li> 
+        </ul>
+    </div>
+</a></li>
